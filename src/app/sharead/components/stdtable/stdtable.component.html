@@ -1,0 +1,23 @@
+
+<div class="table-responsive">
+    <div class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>fname</th>
+                <th>lname</th>
+                <th>Emil</th>
+                <th>contact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let stds of stdes; let i = index">
+                <td>{{i + 1}}</td>
+                <td>{{stds.fname}}</td>
+                <td>{{stds.lname}}</td>
+                <td>{{stds.email}}</td>
+                <td>{{stds.contact}}</td>
+            </tr>
+        </tbody>
+    </div>
+</div>

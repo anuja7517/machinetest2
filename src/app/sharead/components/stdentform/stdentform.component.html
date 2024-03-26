@@ -1,0 +1,25 @@
+<div class="card">
+    <div class="card-body">
+        <form [formGroup]="stdform" (ngSubmit)="onsumite()">
+            <div class="form-group">
+                <label for="fname"> Std fname</label>
+                <input type="text" id="fname"  formControlName="fname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="lname"> Std lname</label>
+                <input type="text" id="lanme" formControlName="lname" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email"> Std Email</label>
+                <input type="text" id="email" formControlName="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contact"> Std Contact</label>
+                <input type="text" id="contact" formControlName="contact" class="form-control">
+            </div>
+            <div class="text-right">
+                <button class= "btn btn-primary my-2">std sumite</button>
+            </div>
+        </form>
+    </div>
+</div>
